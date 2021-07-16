@@ -1,0 +1,108 @@
+<!--File: index.html
+GUI Assignment: Creating My First Web Page
+Nicholas Aswani, UMass Lowell Computer Science, nicholas_aswani@student.uml.edu
+July, 12, 2021 -->
+<!DOCTYPE html> <!--html declaration, informs browsers what information to expect-->
+<html lang="en"> <!--html tag defining the root of the HTML document-->
+<head> <!-- head element: container for metadata-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europes Iconic sights and scenes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>    <!--the body tag defines the documents body; contains all contents of the HTML document.-->
+    <div class="logo"> <!--div: a container for html elements; styled with css or manipulated with javascript-->
+        <a href="#"><img src="images/t_logo.png" alt="logo"></a> <!--img tag for embedding the image in the html doc.-->
+    </div>
+    
+    <div class="wrapper">
+        <nav class="navbar"> <!--nav -tag for navigation links-->
+            <ul> <!--(ul)unordered list ,(li)list items-->
+                <li><a class="active" href="#">Home</a></li> <!--<a> tag defines hyperlinks| href is the tags attribute-->
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="https://www.expedia.com/Europe.d6022967.Destination-Travel-Guides?pwaLob=wizard-package-pwa">Travel Packages</a></li>
+                <li><a href="https://www.planetware.com/europe/top-rated-tourist-attractions-in-europe-cz-1-24.htm">Favorite Sights</a><li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1>Europes Iconic Sights and Scenery</h1> <!--html heading-->
+
+        <div class="center"> <!--class is a global attribute-->
+            <section class="features"> <!--defines the documents section;supports global and event attributes-->
+                <h2>Sights</h2>
+                <div class="row">
+                    <div class="column">
+                        <figure> <!--to define the selfcontained images-->
+                            <img src="./images/colosseum_rome_italy.jpg" alt="colosseum italy" style="width:100%"/>
+                            <figcaption>The Colosseum-Rome,Italy</figcaption> <!--figcaption to defines the image caption-->
+                        </figure>
+                    </div>
+
+                    <div class="column">
+                        <figure>
+                            <img src="./images/france-paris-eiffel-tower.jpg" alt="eiffel tower" style="width:100%"/>
+                            <figcaption>The Eiffel Tower-Paris,France</figcaption>
+                        </figure>
+                    </div>
+            
+                    <div class="column">
+                        <figure>
+                            <img src="./images/norway_northern_lights.jpg" alt="northern lights" style="width:100%" />
+                            <figcaption>The Northern Lights-Norway</figcaption>
+                        </figure>
+                    </div>
+      
+                    <div class="column">
+                        <figure>
+                            <img src="./images/stonehenge_england.jpg" alt="stonehenge,england" style="width:100%" />
+                            <figcaption>The Stonehenge-England,UK</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="column">
+                        <figure>
+                            <img src="./images/sweden-stockholm-drottningholm.jpg" alt="Drottningholm-Sweden" style="width:100%" />
+                            <figcaption>Drottningholm-Sweden</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="column">
+                        <figure>
+                            <img src="./images/tivoli_gardens_copenhagen_denmark.jpg" alt="tivoli garden denmark" style="width:100%" />
+                            <figcaption>The Tivoli Gardens-Copenhagen,Denmark</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="column">
+                        <figure>      
+                             <img src="./images/switzerland_countryside.jpg"  alt="tivoli garden denmark" style="width:100%"/>
+                            <figcaption>A countryside scenery in Switzerland</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>Additional</h3>
+                <div class="buttons">
+                    <button>Take a tour</button>    <button class="btn">Subscribe</button>    <!--button defines a clickable button-->    
+                    
+                </div>
+            </section>
+        </div>
+             <div>
+                Valid CSS!
+                <p> <!--p tag defines a paragraph-->
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                    </a>
+                </p>
+                        
+             </div>
+    </div>
+</body>
+</html> 
+
